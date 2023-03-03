@@ -4,7 +4,7 @@ import os
 import re
 
 # specify the path of the folder containing the Markdown files
-folder_path = "/home/febres/Documents/dev/100DaysOfCode/test-linebreaks"
+folder_path = "/home/febres/Documents/dev/MOREL 2.0/content/_books"
 
 # Define the regular expression pattern to match line breaks
 pattern = re.compile(r"(?<!-)\n(?!-)")

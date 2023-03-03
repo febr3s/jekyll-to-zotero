@@ -1,7 +1,9 @@
+# One of the scripts I tried before finding the definite one
+
 import re
 
 # specify the path of the markdown file
-file_path = "/home/febres/Documents/dev/100DaysOfCode/test-linebreaks/alejandro-guridi-oda.md"
+file_path = "/home/febres/Documents/dev/100DaysOfCode/test-linebreaks/algunos-versos-alejandro-arango.md"
 
 # read the contents of the markdown file
 with open(file_path, "r") as f:

@@ -13,7 +13,7 @@ with open(input_file, "r") as f:
 
 # Modify the data by adding ";;" to the beginning of each word in the first column
 for row in rows:
-    row[0] = ";;" + row[0]
+    row[1] = "@" + row[1]
 
 # Write the modified data to the output CSV file
 with open(output_file, "w") as f:
